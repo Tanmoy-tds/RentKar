@@ -1,58 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - RentKar</title>
     <script src="https://unpkg.com/scrollreveal@4"></script>
-    <title>About Us</title>
-</head>
-<body class="bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900" >
+    <link rel="stylesheet" href="output.css" />
+  </head>
 
+  <body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold ml-3">RentKar</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li>
+              <a href="services.html" class="hover:underline">Services</a>
+            </li>
+            <li><a href="about.html" class="hover:underline">About Us</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <div class="min-h-screen px-6 py-3 flex flex-col gap-10 md:px-10 lg:px-16 lg:py-7 mt-10">
-        <div class="lg:flex ">
-
-            <div class="flex items-center justify-center lg:flex-1 lg:order-2 lg:justify-end image-transform lg:mt-2 image-transform">
-                <img src="logo2.jpg" alt="" class="outline outline-white shadow-2xl shadow-black lg:h-[400px] lg:w-[400px] lg:rounded-full">
+    <main class="container mx-auto py-12 px-4">
+      <div class="content">
+        <section class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-4">About RentKar</h2>
+            <p class="text-lg text-gray-700">
+              Welcome to RentKar, your trusted partner for all your car rental
+              needs. We provide a seamless, affordable, and reliable car rental
+              service to make your journeys smooth and enjoyable.
+            </p>
+          </section>
+    
+          <section class="mb-12">
+            <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">
+              Our Mission
+            </h3>
+            <p class="text-center text-gray-700 max-w-2xl mx-auto">
+              At RentKar, we aim to deliver exceptional car rental experiences by
+              offering well-maintained vehicles, competitive pricing, and
+              outstanding customer service. Your satisfaction is our priority!
+            </p>
+          </section>
+    
+          <section>
+            <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">
+              Meet Our Team
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Team Member 1 -->
+              <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+                  alt="Md Masum Miah"
+                  class="w-24 h-24 rounded-full mx-auto mb-4"
+                />
+                <h4 class="text-xl font-bold text-gray-800">Md Masum Miah</h4>
+                <p class="text-gray-600">Team Member</p>
+              </div>
+    
+              <!-- Team Member 2 -->
+              <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+                  alt="Laxman Das"
+                  class="w-24 h-24 rounded-full mx-auto mb-4"
+                />
+                <h4 class="text-xl font-bold text-gray-800">Tanmoy Das</h4>
+                <p class="text-gray-600">Team Member</p>
+              </div>
+    
+              <!-- Team Member 3 -->
+              <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+                  alt="Tanmoy Das"
+                  class="w-24 h-24 rounded-full mx-auto mb-4"
+                />
+                <h4 class="text-xl font-bold text-gray-800">Laxman Saha</h4>
+                <p class="text-gray-600">Team Member</p>
+              </div>
+    
+              <!-- Team Member 4 -->
+              <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+                  alt="Chironjit Das"
+                  class="w-24 h-24 rounded-full mx-auto mb-4"
+                />
+                <h4 class="text-xl font-bold text-gray-800">Chiranjit Das</h4>
+                <p class="text-gray-600">Team Member</p>
+              </div>
             </div>
+          </section>
+        </main>
+    
+        <footer class="bg-blue-600 text-white py-6 mt-12">
+          <div class="container mx-auto text-center">
+            <p>&copy; 2025 RentKar. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
 
-           <div class="space-y-6 mt-16 lg:flex-1 lg:order-1 lg:mt-8 text-transform ">
-                <div class="flex justify-center px-6 py-3">
-                    <h1 class="font-style: italic font-bold underline text-5xl">About Us</h1>
-                </div>
-                <div class="flex-col text-balance bg-gradient-to-r from-rose-100 to-teal-100 shadow-2xl shadow-black text-2xl" >
-                    <h2 class="font-bold">RentKar</h2>
-                    <p>At RentKar, we're passionate about providing exceptional car rental experiences that make your travels unforgettable. Founded on the principles of quality, reliability, and flexibility, we offer a diverse fleet of well-maintained vehicles, transparent pricing, and unparalleled customer service. Our mission is to deliver unbeatable value, hassle-free booking, and a seamless rental experience, making us the go-to choice for travelers. Whether you're traveling solo or with family and friends, we're committed to making your car rental experience enjoyable, affordable, and memorable.</p>
-
-                </div>
-           </div>
-
-        </div>
-    </div>
-
-    <div class="bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r flex flex-col gap-4 py-8 text-white text-center">
-        <p class="font-semibold text-2xl">Contact Us </p>
-        <div class="flex justify-center gap-20">
-            <a href=""class="flex gap-6 fa-3x">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-airbnb"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-        </div>
-    </div>
-
-    <script>
+      <script>
         const scroll = ScrollReveal({
             reset: true,
             duration : 2600,
             distance: '60px'
         })
-        scroll.reveal('.image-transform',{delay:400, origin:'right'})
-        scroll.reveal('.text-transform',{delay:300, origin:'left'})
+        scroll.reveal('.content',{delay:400, origin:'top'})
     </script>
-       
-</body>
+  </body>
 </html>
